@@ -1,0 +1,192 @@
+/*Обнуление*/
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+body {
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 20px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Trebuchet MS';
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/* Grid */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.certificates-box {
+  min-height: 100vh;
+  padding: 35px;
+  background-color: #352c79;
+}
+
+.continer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.col {
+  flex: 1 0 0%;
+}
+
+.col-2 {
+  width: 50%;
+  flex: 1 0 auto;
+}
+
+.col-auto {
+  flex: auto;
+}
+
+.text-centr {
+  text-align: center;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.fz-22 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.sectin-title {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.sectin-title:before {
+  content: '';
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  bottom: -19px;
+  background-color: #000;
+}
+
+.sections-line {
+  position: relative;
+}
+
+.sections-line:before {
+  content: '';
+  position: absolute;
+  width: 98%;
+  height: 1px;
+  bottom: -17px;
+  background-color: #fff;
+}
+
+.df-al-centr {
+  display: flex;
+  align-items: center;
+}
+
+.df-ju-centr {
+  display: flex;
+  justify-content: center;
+}
+
+.df-al-ju-centr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stretching {
+  align-self: stretch;
+}
+
+.bg-section {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Mian */
