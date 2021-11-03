@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 /*Обнуление*/
 
 * {
@@ -30,7 +31,8 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 input, button, textarea {
@@ -218,7 +220,11 @@ img {
 /*i-work*/
 
 .i-work {
-  padding-bottom: 100px;
+  padding: 100px 0;
+}
+
+.i-work .section-title {
+  margin-top: 0;
 }
 
 .i-work__box-text {
@@ -232,7 +238,7 @@ img {
 
 .i-work__box-img {
   position: relative;
-  width: 1110px;
+  max-width: 1110px;
   margin-top: 57px;
 }
 
@@ -320,7 +326,7 @@ img {
   height: 50px;
 }
 
-.contacts__box-input+.contacts__box-input {
+.contacts__box-input:nth-child(2) {
   margin-left: 26px;
 }
 
@@ -343,7 +349,7 @@ img {
 
 .contacts .btn {
   display: block;
-  margin: 20px auto 0 auto;
+  margin: 50px auto 0 auto;
 }
 
 /*footer*/
