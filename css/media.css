@@ -8,18 +8,23 @@
     line-height: 120%;
   }
   .text-box-center {
-    max-width: 323px;
+    max-width: 322px;
+    width: 88%;
     margin: 0 auto;
     text-align: center;
   }
   header, section, footer {
     max-width: 375px;
+    width: 100%;
     margin: 0 auto;
   }
   /*--------------*/
   .header {
     height: auto;
     padding: 22px 0 0 0;
+  }
+  .header__logo {
+    padding-left: 20px;
   }
   .navigation {
     display: none;
@@ -30,13 +35,16 @@
   }
   .first-screen__box-content {
     width: 100%;
+    padding: 0;
   }
   .first-screen__box-content p {
-    max-width: 320px;
+    max-width: 322px;
+    width: 98%;
     margin: 0 auto;
   }
   .first-screen__box-img img {
     max-width: 298px;
+    width: 88%;
     max-height: 195px;
     margin-top: 67px;
   }
@@ -77,7 +85,7 @@
   }
   .skills_images {
     max-width: 339px;
-    width: 339px;
+    width: 90%;
     margin: 0 auto;
     order: -1;
   }
@@ -90,6 +98,7 @@
   }
   .skills__content {
     max-width: 339px;
+    width: 90%;
     margin: 0 auto;
   }
   /* i-work */
@@ -99,8 +108,12 @@
   .i-work .section-title {
     margin-top: 0;
   }
+  .i-work .text-box-center {
+    width: 98%;
+  }
   .i-work__box-img {
     max-width: 339px;
+    width: 100%;
     margin: 57px auto 0 auto;
   }
   .i-work__box-img img:nth-child(2) {
@@ -108,7 +121,7 @@
   }
   /* portfolio */
   .portfolio {
-    max-width: 375px;
+    /* width: 100%; */
     padding: 34px 0;
   }
   .portfolio__box-images {
@@ -129,12 +142,11 @@
     margin: 0 auto;
   }
   .contacts form {
-    max-width: 375px;
+    width: 100%;
     margin-top: 48px;
   }
   .contacts__box-input, .contacts__box-textarea {
-    max-width: 342px;
-    width: 342px;
+    width: 91%;
   }
   .contacts__box-input:nth-child(2) {
     margin-left: auto;
@@ -163,19 +175,9 @@
 
 @media only screen and (max-width: 375px) {
   .container {
-    max-width: 300px;
+    max-width: 90%;
   }
-  .first-screen__box-img img {
-    max-width: 240px;
-    max-height: none;
-    height: auto;
-  }
-  header, section, footer {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-  .skills_images, .skills__content, .contacts form, .contacts__box-input, .contacts__box-textarea {
-    max-width: 310px;
-    width: 310px;
+  .header__logo {
+    padding-left: 0;
   }
 }
