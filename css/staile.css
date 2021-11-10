@@ -81,7 +81,6 @@ img {
 .navigation li {
   display: inline-block;
   justify-content: flex-end;
-  margin-right: 15px;
 }
 
 .navigation li+li {
@@ -110,7 +109,7 @@ img {
 }
 
 .gen-title {
-  text-align: center;
+  text-align: left;
   font-weight: 500;
   font-size: 48px;
   font-weight: 500;
@@ -214,8 +213,12 @@ img {
   background-color: #34547A;
 }
 
-.skills_images img {
+.skills_images {
   max-width: 555px;
+}
+
+.skills_images img {
+  width: 100%;
 }
 
 /*i-work*/
